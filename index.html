@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaika Indian Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Zaika</h1>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Experience the Authentic Flavors of India</h1>
+                    <p class="tagline">Where tradition meets taste in every bite</p>
+                    <a href="#menu" class="btn-primary">View Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Exquisite Menu</h2>
+            <p class="section-subtitle">Carefully curated dishes from across India</p>
+            <div class="menu-grid">
+                <!-- Menu items will be populated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Chefs Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">Meet Our Master Chefs</h2>
+            <p class="section-subtitle">The artisans behind our authentic flavors</p>
+            <div class="chefs-grid">
+                <!-- Chef cards will be populated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <p class="section-subtitle">Authentic experiences from our valued customers</p>
+            <div class="testimonials-slider">
+                <!-- Testimonials will be populated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking/Contact Section -->
+    <section id="booking" class="booking section-padding">
+        <div class="container">
+            <h2 class="section-title">Reserve Your Table</h2>
+            <p class="section-subtitle">Book your authentic Indian dining experience</p>
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" id="time" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="guests" placeholder="Number of Guests" min="1" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Special Requests or Message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Book Your Table</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>Zaika</h1>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Spice Lane, Mumbai, India</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@zaika.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zaika Indian Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
